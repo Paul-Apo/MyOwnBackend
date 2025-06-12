@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon tsc /src/server.ts"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,9 @@
   "homepage": "https://github.com/Paul-Apo/MyOwnBackend#readme",
   "dependencies": {
     "express": "^5.1.0",
-    "ts": "^0.2.2"
+    "express-validator": "^7.2.1",
+    "nodemon": "^3.1.10",
+    "tsc": "^2.0.4",
+    "typescript": "^5.8.3"
   }
 }
