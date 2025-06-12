@@ -1,0 +1,26 @@
+{
+  "name": "my-backend",
+  "version": "1.0.0",
+  "description": "building webserver from scratch",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paul-Apo/MyOwnBackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paul-Apo/MyOwnBackend/issues"
+  },
+  "homepage": "https://github.com/Paul-Apo/MyOwnBackend#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "ts": "^0.2.2"
+  }
+}
